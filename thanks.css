@@ -1,0 +1,198 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* nav start */
+nav {
+    height: 65px;
+    
+    justify-content: space-around;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.left-side-nav {
+
+    position:relative ;
+}
+
+.sea-inp .fa-solid {
+    color: #606770;
+    position: absolute;
+    font-size: 15px;
+    right: 100px;
+    top: 53px;
+    padding-right: 50px;
+}
+
+.sea-inp input { 
+    text-align: center;
+    border: none;
+    background-color: #f5f0f0;
+   margin-left: -50px;
+    margin-top: 40px;
+    border-radius: 50px;
+ 
+    color: #606770;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+}
+
+.sea-inp input:hover{
+    outline: none;
+}
+
+
+.middle-nav h2 {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 200px;
+    font-weight: lighter;
+  
+    
+  
+}
+
+
+
+.right-side-nav {
+    margin-top: 40px;
+    padding-left: 50px;
+    color:gray;
+    margin-left: 250px;
+    
+}
+
+.right-side-nav .fa-solid {
+    margin: 10px;
+    
+}
+
+.right-side-nav p {
+    text-align: center;
+    margin-left: 85px;
+    margin-top: -46px;
+    width: 20%;
+    height: 20PX;
+    background-color: purple;
+    border-radius: 50%;
+    border-color: purple;
+    color: white;
+}
+
+hr {
+    margin-top: 50px;
+    color: #606770;
+    opacity: 0.2;
+}
+
+
+.bottom-nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    margin-top: 18PX;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    color: #606770;
+}
+
+
+a {
+    text-decoration: none;
+    color: #606770;
+}
+
+.h61 {
+    color: purple;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(106, 105, 105);
+}
+    
+/* nav end */
+
+/* place start */
+
+.clr {
+    color: purple;
+    margin-left: 75px;
+}
+
+.clr2{
+    color: purple;
+}
+
+.place{    
+    align-items: center;
+    display: flex;
+    background-color: #efecec;
+    height: 40px ;
+    margin-top: 110px;
+    
+}
+/* place end */
+
+/* THANKS start */
+
+.thanks {
+    text-align: center;
+
+
+}
+
+.thanks .fa-solid{
+    margin-top: 150px;
+    padding: 2px;
+    scale: 3;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(16, 179, 16);
+}
+
+.thanks h1 {
+    margin-top: 50px;
+    font-size: xx-large;
+    font-size: 75px;
+    font-weight: lighter;
+}
+
+.thanks p {
+    margin-top: 30px;
+    color: grey;
+}
+
+.thanks button {
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 2px;
+    transition: all;
+}
+
+.thanks button:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    background-color: rgb(100, 0, 128);
+   
+}

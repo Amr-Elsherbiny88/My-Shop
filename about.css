@@ -1,0 +1,490 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* nav start */
+nav {
+    height: 65px;
+    
+    justify-content: space-around;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.left-side-nav {
+
+    position:relative ;
+}
+
+.sea-inp .fa-solid {
+    color: #606770;
+    position: absolute;
+    font-size: 15px;
+    right: 100px;
+    top: 53px;
+    padding-right: 50px;
+}
+
+.sea-inp input { 
+    text-align: center;
+    border: none;
+    background-color: #f5f0f0;
+   margin-left: -50px;
+    margin-top: 40px;
+    border-radius: 50px;
+ 
+    color: #606770;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+}
+
+.sea-inp input:hover{
+    outline: none;
+}
+
+
+.middle-nav h2 {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 200px;
+    font-weight: lighter;
+  
+    
+  
+}
+
+
+
+.right-side-nav {
+    margin-top: 40px;
+    padding-left: 50px;
+    color:gray;
+    margin-left: 250px;
+    
+}
+
+.right-side-nav .fa-solid {
+    margin: 10px;
+    
+}
+
+.right-side-nav p {
+    text-align: center;
+    margin-left: 85px;
+    margin-top: -46px;
+    width: 20%;
+    height: 20PX;
+    background-color: purple;
+    border-radius: 50%;
+    border-color: purple;
+    color: white;
+}
+
+hr {
+    margin-top: 50px;
+    color: #606770;
+    opacity: 0.2;
+}
+
+
+.bottom-nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    margin-top: 18PX;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    color: #606770;
+}
+
+
+a {
+    text-decoration: none;
+    color: #606770;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(106, 105, 105);
+}
+
+.h61 {
+    color: purple;
+}
+    
+/* nav end */
+
+
+/* body start */
+
+.clr {
+    color: purple;
+    margin-left: 75px;
+}
+
+
+.place{    
+    align-items: center;
+    display: flex;
+    background-color: #efecec;
+    height: 40px ;
+    margin-top: 110px;
+    
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-side img {
+    width: 100%;
+    height: 400px;
+    margin-right: 65px;
+    margin-top: 60px;
+
+}
+
+.right-side {
+   margin-right:160px ;
+}
+
+.right-side h1 {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    color:black;
+    text-decoration: overline purple;
+     
+}
+
+.right-side p {
+    width: 450px;
+    color: grey;
+}
+
+.un {
+    margin-top: 30px;
+}
+
+
+/* team start */
+
+.team-about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p-img img {
+    margin-left: 150px;
+   
+    margin-top: 50px;
+    width: 100px;
+    border-radius: 50%
+
+}
+
+
+
+.team-title {
+    text-align: center;
+    text-decoration: overline purple;
+    margin-top: 100px;
+
+}
+
+.p-about h1 {
+   text-align: center;
+   margin-top: 15px;
+
+
+}
+
+.p-about span {
+    text-align: center;
+    color: grey;
+}
+
+.p-about p {
+    text-align: center;
+    color: grey;
+    width: 80%;
+    margin-left:45px;
+
+}
+
+.p1 {
+    margin-top: 30px;
+}
+
+.o{
+    margin-left: 125px;
+    margin-top: 10px;
+}
+
+.t {
+    margin-left: 142px;
+    margin-top: 10px;
+}
+
+.th {
+    margin-left: 132px;
+    margin-top: 10px;
+}
+
+.f {
+    margin-left: 138px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.snd-div {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.ic {
+    display: flex;
+    
+  
+}
+
+.left-side-d {
+    margin-left: 100px;
+    width: 50%;
+}
+
+.ic .fa-solid {
+    scale: 1.9;
+    color: purple;
+    margin-right: 30px;
+    
+}
+
+.left-side-d p {
+    margin-left: 50px;
+    
+
+}
+
+
+
+.middle-d{
+    margin-left: 50px;
+    width: 50%;
+}
+
+
+
+
+.middle-d p {
+    margin-left: 47px;
+}
+
+.right-d {
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.right-d .fa-solid {
+  color: white;
+  background-color: purple;
+  border-radius: 50px;
+  padding: 2px 5.5px;
+}
+
+.right-d p {
+    margin-left: 40px;
+}
+
+.snd-div p {
+    color: #606770;
+  
+    margin-top: 8px;
+}
+
+
+
+
+
+foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.left-foot h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.left-foot p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.left-foot2 .pl1 {
+    color: grey; 
+    margin-top: 110px
+}
+
+.left-foot2 p {
+    color: grey;
+    margin-bottom: 20px;
+
+}
+
+.mid-foot .pl1 {
+    color: grey; 
+    margin-top: 110px
+
+}
+
+.mid-foot p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.mid-foot2 h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.mid-foot2 img {
+    width: 250px;
+    height: 100px;
+}
+
+.mid-foot2 h3 {
+    color: purple;
+    margin-top: 14px;
+
+}
+
+.mid-foot2 p {
+    color: grey;
+}
+
+
+.right-foot h2 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.loc{
+    display: flex;
+}
+
+.loc .fa-solid {
+    color: purple;
+    margin-right: 10px;
+}
+
+
+.phone {
+    display: flex;
+    margin-top: 15px;
+}
+
+.phone .fa-solid {
+    color: purple;
+    margin-right: 10px;
+
+}
+
+.mail {
+    display: flex;
+    margin-top: 15px;
+}
+
+.mail .fa-solid {
+    margin-right: 10px;
+color: purple;
+}
+
+
+
+.input {
+    display: flex;
+}
+
+.input button {
+    color: white;
+    border: none;
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 42px; 
+    border: none;
+    margin-right: 10px;
+    transition: all;
+
+}
+
+
+.input button:hover {
+    color: white;
+    scale: 1.1;
+    transition: 0.2s;
+    background-color: rgb(100, 0, 128);
+
+}
+
+.input input {
+    position: relative;
+    height: 40px;
+    border-radius: 5px;
+    width: 250px;
+    border: groove;
+    border-color: gray;
+    border-width: 0.1px;
+
+}
+
+
+.input input:hover{
+    outline: none;
+}
+
+.end-text {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    color: gray;
+}
+
+.name {
+    color: purple;
+    margin-left: 5px;
+}
+
+
+
+
+
+

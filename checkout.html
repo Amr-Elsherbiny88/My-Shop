@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+</head>
+
+<link rel="stylesheet" href="checkout.css">
+
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+
+
+
+    <nav>
+
+        <div class="nav-bar">
+            <div class="left-side-nav">
+                <div class="sea-inp">
+                  <input type="text" placeholder="search">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                
+                
+                
+      
+              </div>
+      
+              <div class="middle-nav">
+                   <h2>Amr Elsherbiny</h2>
+      
+              </div> 
+      
+      
+              <div class="right-side-nav">
+                  <i class="fa-solid fa-user"></i>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <p>2</p>
+              </div>
+        </div>
+        <hr>
+    
+        <div class="bottom-nav">
+          <div class="home">
+    
+            <a href="home.html">
+                <h5 >Home
+                    <i class="fa-solid fa-angle-down"></i>
+                </h5>
+            </a>
+            
+        </div>
+    
+    
+        <div class="about">
+            <a class="link" href="about.html"><h5>ABOUT
+                <i class="fa-solid fa-angle-down"></i>
+            </h5></a>
+        </div>
+    
+            <a href="shop.html">
+                <h5>SHOP</h5>
+            </a>
+            
+    
+             <h5>CATALOGUE</h5>
+    
+             <h5>NEW ARRIVALS</h5>
+    
+             <h5>CONTACT</h5>
+            
+        </div>
+        
+    </nav>
+    
+    <!-- nav end -->
+
+  <section class="body">
+
+    <div class="place">
+        <h5 class="clr">Home</h5>
+        <h5>/</h5>
+        <h5 class="clr2">Cart</h5>
+        <h5>/</h5>
+        <h5>checkout</h5>
+     </div>
+     
+
+  </section>
+
+
+   <section class="page-content"> 
+      
+     <head>
+        <div class="hed">
+            <p>Returning costumer? <span>click here</span> to login</p>
+        </div>
+       
+     </head>
+
+     <body>
+        <h2 class="left-title">BILLING DETAILS</h2>
+        <div class="end">
+            <div class="left-side">
+        
+                <!-- country start -->
+                <div class="bill-det">
+                 <div class="country">
+                    <p>Country<span>*</span></p>
+                     
+                    <select class="country-sel">
+                        <option value="" hidden>select a country</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="Palestine">Palestine</option>
+                        <option value="">France</option>
+                        <option value="">Italy</option>
+                        <option value="">USA</option>
+                        <option value="England">England</option>
+                        <option value="">Turkey</option>
+                        <option value="">Thailand</option>
+                        <option value="">China</option>
+                        <option value="">India</option>
+        
+                    </select>
+                 </div>
+        
+                 <!-- country start -->
+        
+                   <!-- name start -->
+                 <div class="name">
+                  <div class="first-name">
+                    <p>First Name <span>*</span></p>
+                    <input type="text">
+                  </div>
+                  
+        
+        
+        
+                  <div class="last-name">
+                   <p>Last Name<span>*</span></p>
+                    <input type="text">
+                  </div>
+        
+                 </div>
+                  <!-- name end -->
+        
+                  <!-- company name start -->
+        
+                 <div class="company-name">
+                  <p>Company Name</p>
+                  <input type="text">
+                 </div>
+        
+                <!-- company name end -->
+        
+                <!-- address start -->
+                 <div class="address-inp">
+                    <p>Company Name <span>*</span></p>
+                    <input type="text" placeholder="Street address"><br>
+                    <input type="text" placeholder="Apartment, suite, unit etc. (optional)">
+                 </div>
+        
+                <!-- address end -->
+        
+                <!-- country/posta start -->
+        
+                <div class="posta">
+                 
+                    <div class="state">
+                      <p>state / country <span>*</span></p>
+                      <input type="text">
+                    </div>
+        
+                    <div class="zip">
+                    <p>posta / zip <span>*</span></p>
+                    <input type="text">
+                    </div>
+                </div>
+                
+                <!-- country/posta end -->
+        
+                <!-- email / phone start -->
+        
+                <div class="em-ph">
+           
+                  <div class="email">
+                    <p>Email Address <span>*</span></p>
+                    <input type="text">
+                  </div>     
+        
+                  <div class="phone">
+                    <p>Phone <span>*</span></p>
+                    <input type="text" placeholder="Phone Number">
+                  </div>
+        
+                  <!-- email / phone end -->
+        
+                </div>
+                <!-- email / phone end -->
+        
+                <!-- radio start -->
+                <div class="radio">
+                    <input type="radio" value="create an account" name="00">
+                    <label>create an account?</label><br>
+                 
+                    <input type="radio" value="Ship To A Different Address" name="00">
+                    <label>Ship To A Different Address</label><br>
+         
+                   </div>
+                  <!-- radio end -->
+                
+                  <!-- order notes start -->
+        
+                  <div class="ord-not">
+                   <p>Order Notes</p>
+                   <input type="text" placeholder="Write your notes here">
+                  </div>
+                </div>
+        <!-- order notes end -->
+              </div>
+        <!-- left side end -->
+        
+        
+        <!-- right side1 start -->
+            
+              <div class="right-side">
+                <h2 class="right-title-1">Coupon Code</h2>
+                <!-- coupone start -->
+            
+                <div class="coupon-div">
+                    
+                    <p>Enter your coupon code if you have one</p>
+                    <div class="inp">
+                      <input type="text" placeholder="Coupone Code">
+                      <button type="button">APPLY </button>
+                    </div>
+                   </div>
+                <!-- coupon end -->
+
+                <!-- your order start -->
+
+                <h2 class="right-title-2">Your Order</h2>
+
+                <div class="order">
+
+                    <div class="order-title">
+                        <p class="ppp">product</p>
+                        <p class="pppp">total</p>
+                    </div><hr class="hr8">
+                  
+                    <div class="fi-order">
+                        <p class="f-or-1">Top Up T-Shirt   x1</p>
+                        <p class="f-or-2">$250.00</p>
+
+                    </div><hr class="hr9">
+                   
+                   
+                    <div class="fi-order2">
+                        <p class="f-or-12">Polo Shirt  x1</p>
+                        <p class="f-or-22">$100.00</p>
+
+                    </div><hr class="hr92">
+                   
+                    
+                    <div class="fi-order3">
+                        <p class="f-or-13">Cart Subtotal</p>
+                        <p class="f-or-23"> $350.00</p>
+
+                    </div><hr class="hr93">
+                   
+                       
+                    <div class="fi-order4">
+                        <p class="f-or-14">Order Total</p>
+                        <p class="f-or-24"> $350.00</p>
+
+                    </div>
+                    
+                 <div class="payment-meth">
+                    <p>Direct Bank Transfer</p>
+                    <p>Cheque Payment</p>
+                    <p>Paypal</p>
+
+                    <a href="thanks.html">
+                      <button type="button">Place Order</button>
+                    </a>
+                    
+                  </div>
+ 
+                </div>
+        
+
+        </div>
+    
+
+      </div>
+
+     </body><br> <hr> 
+
+   </section>
+
+<!-- order end -->
+
+<!-- foot start -->
+
+
+<foot>
+    <div class="left-foot">
+      <h2>Navigations</h2>
+      <p>Sell online</p>
+      <p>Features</p>
+      <p>Shopping cart</p>
+      <p>Store builder </p>
+    
+    </div>
+    
+    
+    <div class="left-foot2">
+      <p class="pl1">Mobile commerce</p>
+      <p>Dropshipping</p>
+      <p>Website development</p>
+    
+    </div>
+    
+    
+    <div class="mid-foot">
+    <p class="pl1">Point of sale</p>
+    <p>Hardware</p>
+    <p>Software</p>
+    </div>
+    
+    
+    <div class="mid-foot2">
+    <h2>promo</h2>
+    <img src="WebSite شرحه بالتفصيل -20221220T020935Z-001\WebSite شرحه بالتفصيل\hero_1.jpg" alt="">
+    
+    <h3>Finding Your Perfect Shoes</h3>
+    <p>promo from january 15-25,2022</p>
+    </div>
+    
+    
+    <div class="right-foot">
+    <h2>Contact Info</h2>
+    <div class="loc"><i class="fa-solid fa-location-dot"></i>
+    <p>Badr city,Cairo,Egypt</p>
+    </div>
+    
+    <div class="phone">
+        <i class="fa-solid fa-phone"></i>
+        <p>01101761785</p>
+    
+    </div>
+    
+    <div class="mail">
+        <i class="fa-solid fa-envelope"></i>
+        <p>amouryelsherbiny178@gmail.com</p>
+    
+    </div>
+    
+    <div class="subs">
+    
+    <h2>subscribe</h2>
+    <div class="input">
+        <input type="email" placeholder="Email" >
+        <button type="button"> SEND</button>
+    </div>
+    </div>
+    </div>
+    </foot>
+    
+    
+    
+    
+    
+    <foot class="end">
+    <div class="end-text">
+        <p>copyright</p>
+        <i class="fa-regular fa-copyright"></i>
+        <p>2021 All rights reserved | This template is made with</p>
+        <i class="fa-solid fa-heart"></i>
+        <p>by</p> 
+        <p class="name">Amr Elsherbiny</p>
+    
+    
+    
+    </div>
+      
+    
+    
+    
+    </foot>
+    
+    
+    <!-- foot end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

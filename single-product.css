@@ -1,0 +1,545 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* nav start */
+nav {
+    height: 65px;
+    
+    justify-content: space-around;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.left-side-nav {
+
+    position:relative ;
+}
+
+.sea-inp .fa-solid {
+    color: #606770;
+    position: absolute;
+    font-size: 15px;
+    right: 100px;
+    top: 53px;
+    padding-right: 50px;
+}
+
+.sea-inp input { 
+    text-align: center;
+    border: none;
+    background-color: #f5f0f0;
+   margin-left: -50px;
+    margin-top: 40px;
+    border-radius: 50px;
+ 
+    color: #606770;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+}
+
+.sea-inp input:hover{
+    outline: none;
+}
+
+
+.middle-nav h2 {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 200px;
+    font-weight: lighter;
+  
+    
+  
+}
+
+
+
+.right-side-nav {
+    margin-top: 40px;
+    padding-left: 50px;
+    color:gray;
+    margin-left: 250px;
+    
+}
+
+.right-side-nav .fa-solid {
+    margin: 10px;
+    
+}
+
+.right-side-nav p {
+    text-align: center;
+    margin-left: 85px;
+    margin-top: -46px;
+    width: 20%;
+    height: 20PX;
+    background-color: purple;
+    border-radius: 50%;
+    border-color: purple;
+    color: white;
+}
+
+hr {
+    margin-top: 50px;
+    color: #606770;
+    opacity: 0.2;
+}
+
+
+.bottom-nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    margin-top: 18PX;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    color: #606770;
+}
+
+
+a {
+    text-decoration: none;
+    color: #606770;
+}
+
+.h61 {
+    color: purple;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(106, 105, 105);
+}
+    
+/* nav end */
+
+/* place start */
+
+.clr {
+    color: purple;
+    margin-left: 75px;
+}
+
+.place{    
+    align-items: center;
+    display: flex;
+    background-color: #efecec;
+    height: 40px ;
+    margin-top: 110px;
+    
+}
+
+/* place end */
+
+
+/* product start */
+
+.product-det {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* left side */
+.left-side img {
+    
+    margin-top: 100px;
+    width: 110%;
+    
+
+}
+
+
+/* right side */
+
+.prod-text p {
+    margin-top: 10px;
+    color: grey;
+    margin-right: 100px;
+}
+
+.prod-text .title{
+    margin-right: 550px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.p4{
+    margin-top: 25px;
+}
+
+.price-text {
+    color: purple;
+    margin-top: 50px;
+
+}
+
+.radio {
+    margin-top: 15px;
+   
+}
+
+.rad {
+    margin-right: 5px;
+}
+
+.quantity-butt {
+    margin-left: 10PX;
+    margin-top: 10PX;
+    display: flex;
+}
+
+.quantity-butt button {
+    margin-top: 10px;
+    height: 30px;
+    padding: 2px;
+    width: 25px;
+    border: groove purple;
+    border-radius: 3px;
+    border-width: 1.8px;
+    background-color: white;
+    transition: all;
+}
+
+.quantity-butt button:hover{
+    transition: 0.2s;
+    color: white;
+    background-color: purple;
+
+}
+
+
+
+
+.quantity-butt .plus {
+    position: absolute;
+    margin-left: 50px;
+  
+}
+
+.quantity-butt .minus{
+    position: absolute;
+    margin-right: 50px;
+ 
+   
+   
+}
+
+.quantity-butt p {
+    
+    position: relative;
+    text-align: center;
+    margin-top: 15PX;
+    margin-left: 25px;
+
+    background-color: rgb(255, 255, 255);
+    border: black;
+    border-width: 0.5px;
+    color: rgb(0, 0, 0);
+    width: 30px;
+    height: 28px;    
+   border: purple;
+   border-radius: 3px; 
+   transition: all;
+}
+
+
+
+.button {
+    margin-top: 40PX;
+    background-color: purple;
+    color: white;
+    width: 110px;
+    height: 28px;    
+   border: purple;
+   border-radius: 3px; 
+   transition: all;
+}
+
+.button:hover {
+    scale: 1.1;
+    transition: 0.2s;
+    background-color: rgb(100, 0, 128);
+   
+}
+
+/* product end */
+
+
+
+
+/* featured start */
+
+.sec4 {
+    margin-top: 100px;
+    height: 790px;
+    background-color: #efecec;
+    
+}
+
+.test {
+    color:#efecec 
+}
+
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: overline purple ;
+}
+
+.products {
+    display: flex;
+   justify-content: space-around;
+    margin-top: 50px;
+}
+
+.left-container img { 
+    width: 100%;
+} 
+
+.left-container {
+    height: 480px;
+    width: 30%;
+    background-color: white;
+    margin-left: 50px;
+    
+}
+
+
+
+
+
+
+
+.mid-container img { 
+    width: 100%;
+    ;
+   
+} 
+
+.mid-container {
+    width: 30%;
+    background-color: white;
+    height: 480px;
+}
+
+
+
+
+
+
+
+
+.right-container img { 
+    width: 100%;
+  
+} 
+
+.right-container {
+    width: 30%;
+    margin-right: 50px;
+    height: 480px;
+    background-color: white;
+}
+
+.products h2 {
+    
+   
+    color: purple;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.products p {
+     color: grey;
+     margin-top: 8px;
+    text-align: center;
+}
+
+.products .p2 {
+     color: purple;
+     
+     font-weight: bold;
+     margin-top: 8px;
+     text-align: center;
+     
+    
+
+}
+ /* featured end */
+
+
+
+ /* foot start */
+ 
+foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.left-foot h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.left-foot p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.left-foot2 .pl1 {
+    color: grey; 
+    margin-top: 110px
+}
+
+.left-foot2 p {
+    color: grey;
+    margin-bottom: 20px;
+
+}
+
+.mid-foot .pl1 {
+    color: grey; 
+    margin-top: 110px
+
+}
+
+.mid-foot p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.mid-foot2 h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.mid-foot2 img {
+    width: 250px;
+    height: 100px;
+}
+
+.mid-foot2 h3 {
+    color: purple;
+    margin-top: 14px;
+
+}
+
+.mid-foot2 p {
+    color: grey;
+}
+
+
+.right-foot h2 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.loc{
+    display: flex;
+}
+
+.loc .fa-solid {
+    color: purple;
+    margin-right: 10px;
+}
+
+
+.phone {
+    display: flex;
+    margin-top: 15px;
+}
+
+.phone .fa-solid {
+    color: purple;
+    margin-right: 10px;
+
+}
+
+.mail {
+    display: flex;
+    margin-top: 15px;
+}
+
+.mail .fa-solid {
+    margin-right: 10px;
+color: purple;
+}
+
+
+
+.input {
+    display: flex;
+}
+
+.input button {
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 42px; 
+    border: none;
+    margin-right: 10px;
+    transition: all;
+}
+
+
+.input button:hover{
+    color: white;
+    scale: 1.1;
+    transition: 0.2s;
+    background-color: rgb(100, 0, 128);
+
+}
+
+.input input {
+    position: relative;
+    height: 40px;
+    border-radius: 5px;
+    width: 250px;
+    border: groove;
+    border-color: gray;
+    border-width: 0.1px;
+
+}
+
+
+.input input:hover{
+    outline: none;
+}
+
+.end-text {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    color: gray;
+}
+
+.name {
+    color: purple;
+    margin-left: 5px;
+}
+
+/* foot end */

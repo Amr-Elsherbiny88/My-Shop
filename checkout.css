@@ -1,0 +1,899 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* nav start */
+nav {
+    height: 65px;
+    
+    justify-content: space-around;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.left-side-nav {
+
+    position:relative ;
+}
+
+.sea-inp .fa-solid {
+    color: #606770;
+    position: absolute;
+    font-size: 15px;
+    right: 100px;
+    top: 53px;
+    padding-right: 50px;
+}
+
+.sea-inp input { 
+    text-align: center;
+    border: none;
+    background-color: #f5f0f0;
+   margin-left: -50px;
+    margin-top: 40px;
+    border-radius: 50px;
+ 
+    color: #606770;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+}
+
+.sea-inp input:hover{
+    outline: none;
+}
+
+
+.middle-nav h2 {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 200px;
+    font-weight: lighter;
+  
+    
+  
+}
+
+
+
+.right-side-nav {
+    margin-top: 40px;
+    padding-left: 50px;
+    color:gray;
+    margin-left: 250px;
+    
+}
+
+.right-side-nav .fa-solid {
+    margin: 10px;
+    
+}
+
+.right-side-nav p {
+    text-align: center;
+    margin-left: 85px;
+    margin-top: -46px;
+    width: 20%;
+    height: 20PX;
+    background-color: purple;
+    border-radius: 50%;
+    border-color: purple;
+    color: white;
+}
+
+hr {
+    margin-top: 50px;
+    color: #606770;
+    opacity: 0.2;
+}
+
+
+.bottom-nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    margin-top: 18PX;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    color: #606770;
+}
+
+
+a {
+    text-decoration: none;
+    color: #606770;
+}
+
+.h61 {
+    color: purple;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(106, 105, 105);
+}
+    
+/* nav end */
+
+
+.clr {
+    color: purple;
+    margin-left: 75px;
+}
+
+.clr2{
+    color: purple;
+}
+
+.place{    
+    align-items: center;
+    display: flex;
+    background-color: #efecec;
+    height: 40px ;
+    margin-top: 110px;
+    
+}
+
+
+.hed p{
+    margin-left: 100px;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-top: 10px;
+    border: groove;
+    border-width: 0.5px;
+    height: 40px;
+    margin-left: 100px;
+    width: 75%;
+    color: grey;
+}
+.hed span{
+    color: purple;
+}
+
+
+
+/* body */
+.bell-det {
+    display: flex;
+}
+ .end{
+    display: flex;
+ }
+ 
+/* left side */
+
+.left-title{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+/* country start */
+
+.country{
+    margin-left: 60px;
+    margin-top: 75px;
+}
+
+.country-sel {
+    width: 500px;
+    height: 35px;
+}
+.country-sel:hover{
+    outline: none;
+}
+
+.country p {
+    margin-bottom: 10px;
+}
+.country span {
+    color: purple;
+}
+/* country end */
+
+/* name input start */
+.name{
+    display: flex;
+}
+
+.first-name input{
+    width: 240px;
+    margin-right: 20px;
+    margin-left: 60px;
+    height: 33px;
+    border-radius: 3px;
+    border-width: 0.3px;
+}
+
+.first-name p {
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.first-name input:hover{
+    outline: none;
+}
+
+
+
+.first-name p {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.first-name span{
+    color: purple;
+}
+
+
+
+
+.last-name input{
+    width: 240px;
+    height: 33px;
+    border-radius: 3px;
+    border-width: 0.3px;
+}
+
+.last-name input:hover{
+    outline: none;
+}
+
+
+
+.last-name p {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.last-name span{
+    color: purple;
+}
+
+.last-name p {
+    margin-top: 25px;
+}
+
+
+/* name input end */
+
+/* company name start */
+
+.company-name p {
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.company-name input {
+    width: 500px;
+    margin-left: 60px;
+    height: 33px;
+    border-radius: 3px;
+    border-width: 0.3px;
+    margin-top: 10px;
+}
+
+.company-name input:hover{
+    outline: none;
+}
+
+/* company name end */
+
+/* address start */
+
+.address-inp p {
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.address-inp input {
+    width: 500px;
+    margin-left: 60px;
+    height: 33px;
+    border-radius: 3px;
+    border-width: 0.3px;
+    margin-top: 10px;
+}
+
+.address-inp input:hover{
+    outline: none;
+}
+
+/* address end */
+
+/* posta start */
+
+.posta {
+    display: flex;
+}
+
+
+
+.state input{
+    width: 240px;
+    margin-right: 20px;
+    margin-left: 60px;
+    height: 33px;
+    border-radius: 3px;
+    border-width: 0.3px;
+}
+
+.state input:hover{
+    outline: none;
+}
+
+
+
+.state p {
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.state span{
+    color: purple;
+}
+
+.state p {
+    margin-top: 25px;
+}
+
+.state span {
+    color: purple;
+}
+
+
+
+
+.zip input{
+    width: 240px;
+    height: 33px;
+    border-radius: 3px;
+    border-width: 0.3px;
+}
+
+.zip input:hover{
+    outline: none;
+}
+
+
+
+.zip p {
+    margin-bottom: 10px;
+}
+
+.zip span{
+    color: purple;
+}
+
+.zip p {
+    margin-top: 25px;
+}
+
+.zip span {
+    color: purple;
+}
+
+/* posta end */
+
+/* email / phone start */
+
+.em-ph{
+    display: flex;
+}
+
+.email input{
+    width: 240px;
+    margin-right: 20px;
+    margin-left: 60px;
+    height: 33px;
+    border-radius: 3px;
+    border-width: 0.3px;
+}
+
+.email p {
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.email input:hover{
+    outline: none;
+}
+
+
+
+.email p {
+    margin-bottom: 10px;
+}
+
+.email span{
+    color: purple;
+}
+
+
+
+
+.phone input{
+    position: absolute;
+    margin-right: 50px;
+    margin-top: 38px;
+    width: 240px;
+    height: 33px;
+    border-radius: 3px;
+    border-width: 0.3px;
+}
+
+.phone input:hover{
+    outline: none;
+}
+
+
+
+.phone p {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.phone span{
+    color: purple;
+}
+
+
+
+.phone span {
+    color: purple;
+}
+
+
+/* radio start */
+
+.radio input {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+/* radio end */
+
+
+/* order notes start */
+
+.ord-not  {
+    margin-left: 60px;
+}
+
+.ord-not p {
+    margin-top: 25px;
+    margin-bottom: 10px
+}
+
+.ord-not input {
+    
+    width: 500px;
+   
+    padding-bottom: 100px;
+    border-radius: 3px;
+    border-width: 0.3px;
+    margin-top: 7px;
+
+}
+
+/* order notes end */
+
+
+.left-side {
+    border: groove;
+    width: 43%;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* left side end */
+
+/* coupon start */
+
+
+.right-title-1 {
+  margin-top: -25PX;
+    margin-left: 50px;
+    width: 100%;
+    
+}
+
+.coupon-div{
+   width: 90%;
+    margin-left: 50px;
+    border: groove;
+    padding-right: 50px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    margin-top: 20px;
+   
+
+}
+.coupon-div p {
+   
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.inp input{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 30px;
+    width: 270px;
+    margin-right: 10px;
+}
+.inp input:hover{
+    outline: none;
+}
+
+.inp button {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -11px;
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 2px;
+    transition: all;
+}
+
+
+.inp button:hover{
+    color: white;
+    scale: 1.1;
+    transition: 0.2s;
+    background-color: rgb(100, 0, 128);
+
+}
+
+
+/* /coupon end */
+
+/* order start */
+
+.right-title-2{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+.order-title {
+    font-weight: bold;
+    margin-bottom:15px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.order-title p {
+    margin-right: 25px;
+    
+
+
+}
+
+.ppp {
+    margin-left: -230px;
+}
+
+.pppp{
+    margin-left: 210px;
+}
+
+.hr8 {
+    width: 75%;
+    margin-left: 60px;
+    margin-top: -1px;
+}
+
+
+
+.fi-order{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.f-or-1 {
+  margin-left: 35px;
+}
+
+.f-or-2{
+    margin-left: 205px;
+}
+
+.hr9{
+    width: 75%;
+    margin-left: 60px;
+    margin-top: -1px;
+}
+
+
+
+.fi-order2{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.f-or-12 {
+    margin-left: 35px;
+}
+
+.f-or-22{
+    margin-left: 240px;
+}
+
+.hr92{
+    width: 75%;
+    margin-left: 60px;
+    margin-top: -1px;
+}
+
+
+.fi-order3{
+    margin-bottom: -30px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.f-or-13 {
+    font-weight: bold;
+     margin-left: 35px;
+}
+
+.f-or-23{
+    margin-left: 230px;
+}
+
+.hr93{
+    width: 75%;
+    margin-left: 35px;
+}
+
+
+
+
+.fi-order4{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.f-or-14{
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.f-or-24{
+    font-weight: bold;
+    margin-left: 240px;
+}
+
+
+.order{
+    padding-right: 60px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+     border: groove;
+     border-radius: 0.5px;
+     margin-left: 50px;
+     margin-bottom: 75px;
+     
+
+}
+
+
+
+
+.payment-meth p {
+    border: groove;
+    border-width: 0.5px;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: purple;
+    margin-left: 50px;
+    padding-left: 10px;
+
+}
+
+.payment-meth button {
+    color: white;
+    background-color: purple;
+    width: 370px;
+    height: 35px;
+    border: none;
+    margin-left: 50px;
+   margin-top: 30px;
+   border-radius: 2px;
+   transition: all;
+
+}
+
+.payment-meth button:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    background-color: rgb(100, 0, 128);
+   
+}
+
+
+/* order end */
+
+
+/* foot start */
+
+
+foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.left-foot h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.left-foot p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.left-foot2 .pl1 {
+    color: grey; 
+    margin-top: 110px
+}
+
+.left-foot2 p {
+    color: grey;
+    margin-bottom: 20px;
+
+}
+
+.mid-foot .pl1 {
+    color: grey; 
+    margin-top: 110px
+
+}
+
+.mid-foot p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.mid-foot2 h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.mid-foot2 img {
+    width: 250px;
+    height: 100px;
+}
+
+.mid-foot2 h3 {
+    color: purple;
+    margin-top: 14px;
+
+}
+
+.mid-foot2 p {
+    color: grey;
+}
+
+
+.right-foot h2 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.loc{
+    display: flex;
+}
+
+.loc .fa-solid {
+    color: purple;
+    margin-right: 10px;
+}
+
+
+.phone {
+    display: flex;
+    margin-top: 15px;
+}
+
+.phone .fa-solid {
+    color: purple;
+    margin-right: 10px;
+
+}
+
+.mail {
+    display: flex;
+    margin-top: 15px;
+}
+
+.mail .fa-solid {
+    margin-right: 10px;
+color: purple;
+}
+
+
+
+.input {
+    display: flex;
+}
+
+.input button { color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 42px; 
+    border: none;
+    margin-right: 10px;
+   transition: none;
+
+}
+
+.input button:hover{
+    color: white;
+    scale: 1.1;
+    transition: 0.2s;
+    background-color: rgb(100, 0, 128);
+
+}
+
+.input input {
+   
+    position: relative;
+    height: 40px;
+    border-radius: 5px;
+    width: 250px;
+    border: groove;
+    border-color: gray;
+    border-width: 0.1px;
+
+}
+
+
+.input input:hover{
+    outline: none;
+}
+
+.end-text {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    color: gray;
+}
+
+.name {
+    color: purple;
+    margin-left: 5px;
+}
+
+
+
